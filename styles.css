@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #bab89a; 
+    /* Light green background color */
+}
+
+.product-list {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff; /* White background for product items */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+    transition: transform 0.2s ease-in-out;
+}
+
+.product:hover {
+    transform: scale(1.02); /* Scale up the product on hover */
+}
+
+.product h3 {
+    margin: 0;
+    color: #333; /* Dark text color for product title */
+}
+
+.product p {
+    margin: 5px 0;
+    color: #666; /* Slightly darker text color for additional information */
+}
+
+.product hr {
+    margin: 10px 0;
+    border: 0;
+    height: 1px;
+    background-color: #ccc; /* Light gray separator line */
+}
+
